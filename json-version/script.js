@@ -17,11 +17,12 @@ function loadJsonFile() {
 
 
 function reloadImages() {
+
     $("#imagesDiv").empty();
     images = imagesObject.images;
     for (var i = 0; i < images.length; i++) {
         var tmp = images[i]["url"];
-        $("#imagesDiv").append("<div><img class='open' onclick='ImageClickHandler(" + i + "); unhide(); ' src=" + tmp + "></div>");
+        $("#imagesDiv").append("<div class='imagecontainer'><button class='buttonEdit button' onclick='ImageClickHandler(" + i + "); unhide(); '>Edit This Image</button><img class='open'  src=" + tmp + "><button class='buttonDelete button' onclick='deleteImage(" + i + ");'>Delete Image</button></div>");
     }
 }
 
@@ -56,7 +57,7 @@ function unhide() {
 
 function toggle() {
     var x = document.getElementById("settingsDiv");
-    if (x.style.display === "none") {
+    if (x.style.display == "none") {
         x.style.display = "block";
     } else {
         x.style.display = "none";
@@ -96,7 +97,7 @@ function editImage() {
 }
 
 
-function deleteImage() {
+function deleteImage(selectedImage) {
 
     if (selectedImage == null) {
         alert("Please click on image you want to delete first!");
