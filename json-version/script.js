@@ -80,14 +80,14 @@ function addImage() {
 
 
 function editImage() {
-    if (!validate())
-        return false;
 
     if (selectedImage == null) {
         alert("Please Select the image You want to edit");
         return false;
     }
 
+    if (!validate())
+        return false;
 
     imagesObject.images[selectedImage]["url"] = $('#url').val();
     imagesObject.images[selectedImage]["name"] = $('#name').val();
