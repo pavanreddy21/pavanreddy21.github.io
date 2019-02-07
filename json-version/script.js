@@ -74,6 +74,7 @@ function addImage() {
     imagesObject.images.push(newimageObject);
     localStorage.setItem('imagesObject', JSON.stringify(imagesObject));
     reloadImages();
+    alert($('#name').val() + " added Sucessfully");
 }
 
 
@@ -94,6 +95,8 @@ function editImage() {
     imagesObject.images[selectedImage]["uploadedDate"] = $('#date').val();
     localStorage.setItem('imagesObject', JSON.stringify(imagesObject));
     reloadImages();
+
+    alert("Edit Sucessful");
 }
 
 
