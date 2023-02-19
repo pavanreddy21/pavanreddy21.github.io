@@ -5,7 +5,6 @@ import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
 import Contact from "../pages/contact/ContactComponent";
-import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 
 export default function Main(propss) {
@@ -14,17 +13,6 @@ export default function Main(propss) {
       <div>
         <HashRouter basename="/">
           <Switch>
-            <Route
-              path="/"
-              exact
-              render={(props) => (
-                <Splash
-                  {...props}
-                  theme={propss.theme}
-                  setTheme={propss.setTheme}
-                />
-              )}
-            />
             <Route
               path="/home"
               render={(props) => (
@@ -76,10 +64,10 @@ export default function Main(propss) {
                 />
               )}
             />
-            <Route
-              path="/projects"
+          <Route
+              path="/"
               render={(props) => (
-                <Projects
+                <Splash
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
@@ -141,16 +129,6 @@ export default function Main(propss) {
               path="/contact"
               render={(props) => (
                 <Contact
-                  {...props}
-                  theme={propss.theme}
-                  setTheme={propss.setTheme}
-                />
-              )}
-            />
-            <Route
-              path="/projects"
-              render={(props) => (
-                <Projects
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
