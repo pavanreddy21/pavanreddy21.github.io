@@ -1,4 +1,4 @@
-# Sample workflow for building and deploying a Next.js site to GitHub Pages
+# Sample workflow for starting a Next.js development server and deploying it to GitHub Pages
 #
 # To get started with Next.js see: https://nextjs.org/docs/getting-started
 #
@@ -24,8 +24,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # Build job
-  build:
+  # Build and deploy job
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -36,10 +36,10 @@ jobs:
           node-version: 16.x
       - name: Install dependencies
         run: npm install --force
-      - name: Build and Export
-        run: npm run export
+      - name: Start development server
+        run: npm run dev
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          publish_dir: ./_static
+          publish_dir: ./out
