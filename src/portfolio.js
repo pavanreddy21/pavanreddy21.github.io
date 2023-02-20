@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "pavan.reddy()",
   nickname: "Pavan Reddy",
   full_name: "Pavan Reddy Gottimukkula",
-  subTitle: "Full Stack Developer, -- 🔥. Always learning.",
+  subTitle: "Software Engineer with Passion for creating 🔥 Impactful Applications",
   resumeLink:
     "https://docs.google.com/document/d/1P-uHWEJEOVgUkeQD3qHN2daYAseIU5vta-j-DCP3Tr4/edit?usp=sharing",
   mail: "mailto:pavanreddy1998@gmail.com",
@@ -34,11 +34,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+        "⚡ Develop highly interactive Front end / User Interfaces for web and mobile applications",
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
-        "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        "⚡ Creating Backend API's with Java, Ruby, Python, Node, Express",
       ],
       softwareSkills: [
         {
@@ -61,13 +59,6 @@ const skills = {
           style: {
             backgroundColor: "#FFFFFF",
             color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
           },
         },
         {
@@ -98,18 +89,11 @@ const skills = {
             color: "#439743",
           },
         },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
         {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
+          skillName: "GraphQL",
+          fontAwesomeClassname: "simple-icons:graphql",
           style: {
-            color: "#3DDC84",
+            color: "#DE33A6",
           },
         },
         {
@@ -119,27 +103,6 @@ const skills = {
             color: "#f89820",
           },
         },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-        {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
-        },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
@@ -152,20 +115,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:jquery",
           style: {
             color: "#0865A6",
-          },
-        },
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
-          },
-        },
-        {
-          skillName: "Apache",
-          fontAwesomeClassname: "simple-icons:apache",
-          style: {
-            color: "#CA1A22",
           },
         },
         {
@@ -243,17 +192,17 @@ const skills = {
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
           style: {
             color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "simple-icons:kubernetes",
+          style: {
+            color: "#5b77ef",
           },
         },
         {
@@ -271,263 +220,93 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Shantilal Shah Engineering College",
-      subtitle: "Bachelor in Information Technology",
-      logo_path: "ssec.png",
-      alt_name: "SSEC",
-      duration: "2021 - Present",
+      title: "Oklahoma State University",
+      subtitle: "Masters in Computer Science",
+      logo_path: "osu.png",
+      alt_name: "OSU",
+      duration: "Jan 2022 - May 2023",
       descriptions: [
-        "⚡ I'm currently pursuing my bachelors in Information Technology.",
+        "⚡ I'm currently pursuing my Master's in Computer Science - Artificial Intelligence.",
         // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "http://www.ssgec.ac.in/",
+      website_link: "https://go.okstate.edu/",
     },
     {
-      title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
-      subtitle: "Diploma in Information Technology",
-      logo_path: "ssgandhy.png",
-      alt_name: "SSGC",
-      duration: "2018 - 2021",
+      title: "Jawaharlal Nehru Technological University Hyderabad",
+      subtitle: "Bachelor in Computer Science",
+      logo_path: "jntu.jpeg",
+      alt_name: "JNTU",
+      duration: "2015 - 2019",
       descriptions: [
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "http://www.ssgc.cteguj.in/",
+      website_link: "https://sreenidhi.edu.in/",
     },
   ],
 };
 
 const certifications = {
-  certifications: [
-    {
-      title: "M0001: MongoDB Basics",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#2AAFED",
-      color_code: "#47A048",
-    },
-    {
-      title: "Hackathon",
-      subtitle: "Hack The Mountains",
-      logo_path: "hackathon1.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#E2405F",
-    },
-    {
-      title: "A300: Atlas Security",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#F6B808",
-      color_code: "#47A048",
-    },
-    {
-      title: "Cyber Security & Cyber Forensics",
-      subtitle: "Workshop at IIT Bombay",
-      logo_path: "iit.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-      alt_name: "Workshop",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "MLH Local Hack Day: Build",
-      subtitle: "Major League Hacking",
-      logo_path: "mlh-logo.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
-      color_code: "#fe0037",
-    },
-    {
-      title: "Hack20",
-      subtitle: "Flutter International Hackathon",
-      logo_path: "flutter.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter International Hackathon",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Postman Student Expert",
-      subtitle: "Postman",
-      logo_path: "postman.png",
-      certificate_link:
-        "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
-    },
-    // color_code: "#8C151599",
-    // color_code: "#7A7A7A",
-    // color_code: "#0C9D5899",
-    // color_code: "#C5E2EE",
-    // color_code: "#ffc475",
-    // color_code: "#g",
-    // color_code: "#ffbfae",
-    // color_code: "#fffbf3",
-    // color_code: "#b190b0",
-  ],
 };
 
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Where I created Impact",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "Below is my work Experience where I showcased my effort and Skills for creating Impact",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Node.js Backend Developer",
-          company: "Valora Infotech",
-          company_url: "http://valorainfotech.com/",
-          logo_path: "valora.jpg",
-          duration: "Nov 2021 - Present",
-          location: "Surat, Gujarat",
-          description: `Working on Mob-rule Application and Admin Panel Backend. I have worked on Socket.io,
-          Payment Gateway Integration and Microservice Architecture.
+          title: "Research Assistant",
+          company: "Oklahoma State University",
+          company_url: "https://go.okstate.edu/",
+          logo_path: "osu.png",
+          duration: "Aug 2021 - Present",
+          location: "Stillwater, USA",
+          description: `➔ Successfully developed a custom KNN ensemble model that improved the accuracy of healthcare predictions by around 15%. \n
+          ➔ Implemented techniques such as parallelization to reduce the training time of the model by almost 96%, resulting in a significant decrease in time taken for training. Now it is 1/27th of the total time taken previously while preserving the accuracy of predictions.\n 
+          ➔ Developed interpretable machine learning models that aid medical decision-making and currently trying to improve their interpretability.
           `,
+          color: "#0071C5",
+        },
+        {
+          title: "Software Engineer - 2",
+          company: "InterviewBit - Scaler Academy",
+          company_url: "https://www.scaler.com/",
+          logo_path: "scaler.png",
+          duration: "July 2021 - Jan 2022",
+          location: "Banglore, India",
+          description: `➔ Led the development of the landing page and onboarding flow for the Scaler Forever product, which helped software engineers to grow in their careers as a community and the product caters to 2000+ mentors who help guide 10000+ users. \n 
+          ➔ Implemented metrics tracking to measure the overall impact of the product and users signing up through the hosted campaign, resulting in a 60% increase in user sign-ups. \n 
+          ➔ Developed and implemented the Crown Jobs feature to reward mentors for their karma achieved, resulting in an 80% increase in mentor NPS scores and mentor reward coins usage. \n
+          ➔ Helped build a platform that entertains 3000+ mentor-student session calls every week, which helped to improve mentor-student engagement. ➔ Implemented real-time analytics to monitor and troubleshoot performance issues, resulting in a 50% reduction in downtime.
+          ➔ Collaborated with cross-functional teams such as design, marketing, and customer success to ensure product alignment with company goals and user needs.`,
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
         {
-          title: "Node.js Backend Developer (Intern)",
-          company: "Valora Infotech",
-          company_url: "http://valorainfotech.com/",
-          logo_path: "valora.jpg",
-          duration: "Oct 2020 - Mar 2021",
-          location: "Surat, Gujarat",
-          description: `Train, manage and provide guidance to junior software development staff.
-          Work closely with the Project Manager and Team Leads on change request functions.
-          Develops new and maintains existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-          `,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
-        },
-        {
-          title: "Full Stack Developer (Freelancer)",
-          company: "NightOwls",
-          company_url: "http://nightowls.company/",
-          logo_path: "nightowls.jpg",
-          duration: "Sep 2020 - Oct 2020",
-          location: "Work From Home",
-          description: `Work closely with the Client and Team on change request functions.
-          We Primarily used LAMP Stack. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
-          `,
+          title: "Software Engineer - 2",
+          company: "ZeMoSo Technologies",
+          company_url: "https://www.zemosolabs.com/",
+          logo_path: "zemoso.png",
+          duration: "Jan 2019 - July 2021",
+          location: "Hyderabad, India",
+          description: `➔ Successfully developed and launched a web application that integrated real-time user navigation on the map, resulting in a 15% increase in user engagement. \n 
+          ➔ Contributed to building MVP products from Scratch which raised around 1B$ in Funding. \n 
+          ➔ Implemented continuous integration flow for microservices using Kubernetes and Docker, resulting in a 30% reduction in deployment time. \n
+          ➔ Developed multiple UI dashboards that handled real-time data streams, resulting in a 40% increase in app usage by users.`,
           // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
         },
       ],
-    },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Community Lead",
-          company: "Bauddhik-Geeks",
-          company_url: "https://bauddhikgeeks.tech/",
-          logo_path: "bauddhikgeeks.png",
-          duration: "Sep 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Help Tech-Geeks so they get exposure to the technical world and enlighten their skills. Hence, the programming club highlight all the skills of the individual members and help them develop and groom their skills in a meaningful way. Help community members to learn and grow.",
-          color: "#FBBD18",
-        },
-        // {
-        //   title: "Cross Winter of Code Mentor",
-        //   company: "CWOC",
-        //   company_url: "https://crosswoc.ieeedtu.in/",
-        //   logo_path: "cwoc.png",
-        //   duration: "Feb 2021 - Present",
-        //   location: "Work From Home",
-        //   description:
-        //     "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-        //   color: "#4285F4",
-        // },
-        // {
-        //   title: "Campus Hustler",
-        //   company: "Skillenza",
-        //   company_url: "https://skillenza.com/",
-        //   logo_path: "skillenza.png",
-        //   duration: "Feb 2021 - Present",
-        //   location: "Work from Home",
-        //   description:
-        //     "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-        //   color: "#196acf",
-        // },
-        // {
-        //   title: "GDG Student Volunteer",
-        //   company: "Google Developer Groups",
-        //   company_url: "https://gdg.community.dev/",
-        //   logo_path: "gdg.png",
-        //   duration: "Feb 2021 - Present",
-        //   location: "Work From Home",
-        //   description:
-        //     "Google Developer Group Surat Student Volunteer and Member.",
-        //   color: "#D83B01",
-        // },
-        {
-          title: "Postman Student Expert",
-          company: "Postman",
-          company_url: "https://www.postman.com/",
-          logo_path: "postman.png",
-          duration: "Feb 2020 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
-          description:
-            "Contribute to Open Source Community and Open Source Project.",
-          color: "#040f26",
-        },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
-          location: "Work From Home",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
-        },
-      ],
-    },
+    }
   ],
 };
 

@@ -57,7 +57,12 @@ function ExperienceCard(props) {
           className="experience-card-description"
           style={{ color: theme.text }}
         >
-          {experience["description"]}
+          {experience["description"].split('\n').map(item=>{
+                  return <>
+                    {item}
+                    <br/>
+                  </>
+                })}
         </p>
       </div>
     </div>

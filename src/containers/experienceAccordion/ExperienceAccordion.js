@@ -7,13 +7,16 @@ import { DarkTheme, LightTheme, ThemeProvider } from "baseui";
 function ExperienceAccordion(props) {
   const theme = props.theme;
 
+
   return (
     <div className="experience-accord">
       <ThemeProvider theme={theme.name === "light" ? LightTheme : DarkTheme}>
-        <Accordion onChange={({ expanded }) => console.log(expanded)}>
+        <Accordion
+          onChange={({ expanded }) => console.log(expanded)}>
           {props.sections.map((section) => {
             return (
               <Panel
+                expanded
                 className="accord-panel"
                 title={section["title"]}
                 key={section["title"]}
