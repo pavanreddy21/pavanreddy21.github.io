@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Pavan Reddy Gottimukkula",
   subTitle: "Software Engineer with Passion for creating 🔥 Impactful Applications",
   resumeLink:
-    "https://docs.google.com/document/d/1P-uHWEJEOVgUkeQD3qHN2daYAseIU5vta-j-DCP3Tr4/edit?usp=sharing",
+    "https://drive.google.com/file/d/1bMXl9hTlS5-qopoUkGnKe1G8jp6eG_qM/view",
   mail: "mailto:pavanreddy1998@gmail.com",
 };
 
