@@ -264,11 +264,11 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Research Assistant",
+          title: "Machine Learning Engineer(Research Assistant)",
           company: "Oklahoma State University",
           company_url: "https://go.okstate.edu/",
           logo_path: "osu.png",
-          duration: "Aug 2022 - Present",
+          duration: "Jan 2022 - Present",
           location: "Stillwater, USA",
           description: `➔ Successfully developed a custom KNN ensemble model that improved the accuracy of healthcare predictions by around 15%. \n
           ➔ Implemented techniques such as parallelization to reduce the training time of the model by almost 96%, resulting in a significant decrease in time taken for training. Now it is 1/27th of the total time taken previously while preserving the accuracy of predictions.\n 
