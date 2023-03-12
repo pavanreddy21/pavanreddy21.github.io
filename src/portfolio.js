@@ -240,9 +240,8 @@ const degrees = {
       alt_name: "JNTU",
       duration: "2015 - 2019",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ I have studied core subjects like Data Structures and Algorithms, DBMS, Networking, Security, Software Engineering, Business Intelligence etc.",
+        "⚡ I have implemented several projects based on what I've leart under my BTech - Computer Science. ",
       ],
       website_link: "https://sreenidhi.edu.in/",
     },
