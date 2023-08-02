@@ -263,7 +263,7 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Machine Learning Engineer(Research Assistant)",
+          title: "Software Engineer(Research Assistant)",
           company: "Oklahoma State University",
           company_url: "https://go.okstate.edu/",
           logo_path: "osu.png",
